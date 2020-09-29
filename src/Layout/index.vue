@@ -4,9 +4,11 @@
       <div class="layout_page">
          <topHeader></topHeader>
          <div class="main_container">
-            <keep-alive>
-               <router-view></router-view>
-            </keep-alive>
+            <el-card class="box-card">       
+               <keep-alive>
+                  <router-view></router-view>
+               </keep-alive>
+            </el-card>
          </div>
       </div>
    </div>
@@ -35,6 +37,9 @@ export default {
    .app-wraper{
       height: 100%;
       display: flex;
+      .box-card{
+         max-height: 764px;
+      }
    }
    .layout_page{
       overflow: hidden;
@@ -42,6 +47,6 @@ export default {
    }
    .main_container{
       background-color: #f3f7fd;
-      padding: 20px;
+      padding: 20px;      
    }
 </style>

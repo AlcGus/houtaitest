@@ -38,5 +38,7 @@ export default {
 <style scoped>
     .el-table{
         font-size: 12px;
+        margin-top: 30px;
+        max-height: 532px;
     }
 </style>

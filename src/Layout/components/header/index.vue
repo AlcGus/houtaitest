@@ -13,7 +13,7 @@ export default {
 </script>
 <style scoped>
     .header{
-        height: 130px;
+        height: 135px;
         width: 100vw;
         background-color: #fff;
     }
