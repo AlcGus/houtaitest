@@ -1,18 +1,20 @@
 <template>
    <div>
-       用户部门
-       <topRow></topRow>
+       <linechart></linechart>
+       <barchart></barchart>
    </div>
 </template>
 <script>
-import topRow from './subComponents/topRow'
+import linechart from '../subComponents/topSubComponents/lineChart'
+import barchart from "../subComponents/topSubComponents/barChart"
 export default {
    name: '',
    data() {
        return {}
    },
   components: {
-      topRow
+      linechart,
+      barchart
   },
   computed: {},
   beforeMount() {},

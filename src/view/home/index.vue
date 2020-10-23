@@ -98,6 +98,13 @@ export default {
             },{
                 prop:"www",
                 lable:"www",
+                width:120,
+                formatter:(row,columns)=>{
+                    if(row.www != undefined){
+                        return "哈哈，这是替换的"
+                        // return bankCardType.filter(item => item.value === row.status)[0].name
+                    }
+                }
             }],
            tableData: [{
             date: '2016-05-02',
